@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    h1 {
+        color :lightskyblue;
+        font-size: 70px;
+        text-align: center;
+        border-bottom: 5px solid rgb(213, 213, 213) ;
+        margin: 0;
+        padding: 20px;
+    }
+      ol{
+        border-right: 5px solid rgb(213, 213, 213) ;
+        width : 140px;
+        margin : 0;
+        padding: 20px;
+      }
+      #grid {
+         display: grid;
+        grid-template-columns: 190px 1fr;
+      }
+    </style>
+</head>
+<body>
+    <input type ="button" value ="night"
+    onclick = "
+       document.querySelector('body').style.backgroundColor = 'black';
+       document.querySelector('body').style.color = 'white';
+     ">
+    <input type ="button" value ="day"
+    onclick = "
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+  ">
+   
+    <h1>아이스크림</h1>
+
+    <div id = "grid">
+    <ol>
+    <li><a href = "1.html">빠삐코</a></li>
+    <li><a href = "2.html">쌍쌍바</a></li>
+    <li><a href = "3.html">빵빠레</a></li>
+    </ol>
+
+   <div>
+    <img src ="https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20230620_68%2F1687255993198mOcNy_JPEG%2F2790062054187974_1520113190.jpg&type=a340">
+
+    <p>빠삐코는 일본 에자키 글리코의 "파피코"(パピコ)를 모방한 펜슬형 빙과류 제품이다.<br>
+         <strong>막대 아이스크림과는 다르게 짜 먹는 것이 특징</strong>이다.<br>
+         <u>롯데웰푸드에서 1981년부터 생산하고 있으며, "쮸쮸바" 1세대에 해당하는 제품</u>이다.<br>
+        초코맛, 소다향, 밀크쉐이크, 딸기쉐이크, 달고나 맛이 있으며, 막대 아이스크림으로도 나와있다.<br>
+    </p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PayT2c10kVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+    </div></div>
+    </body>
+</html>
